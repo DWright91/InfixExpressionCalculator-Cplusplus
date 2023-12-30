@@ -1,0 +1,38 @@
+# Output
+
+This program uses implementation of a stack to evaluate single digit operations, using a linked list aka “singly linked list” to validate expression upon its input in the form of numbers, 
+and parenthesis for a valid expression that is well balanced. Moreover the runtime errors that could be encountered are then handled by exceptions like dividing a number by zero, or the unbalanced expression.
+The use of exceptions uses a try block followed by its conditions or catch blocks. 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Output:
+Script started
+
+This program tests an infix calculator, by evaluating single digit operations.
+Spaces are not allowed within the expression.
+Please enter an expression: 2+2
+Expression result: 4
+To continue calculating please enter (Y/N): Y
+This program tests an infix calculator, by evaluating single digit operations.
+Spaces are not allowed within the expression.
+Please enter an expression: 2-2
+Expression result: 0
+To continue calculating please enter (Y/N): Y
+This program tests an infix calculator, by evaluating single digit operations.
+Spaces are not allowed within the expression.
+Please enter an expression: (2+2)*(3)/(4)
+Expression result: 3
+To continue calculating please enter (Y/N): Y
+This program tests an infix calculator, by evaluating single digit operations.
+Spaces are not allowed within the expression.
+Please enter an expression: 4/0
+Cannot divide by 0.
+To continue calculating please enter (Y/N): Y
+This program tests an infix calculator, by evaluating single digit operations.
+Spaces are not allowed within the expression.
+Please enter an expression: (2+2))/2
+Precondition Violated Exception: The expression entered is invalid.
+To continue calculating please enter (Y/N): N
+> ^Dexit
+
+script done
